@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+}
+.fetchDivs{
+  border: 1px solid #8d8383;
+  border-radius: 4px;
+  margin: 20px;
+  padding: 10px 0;
+  width: 500px;
+  display: inline-block;
+}
+#customHookTable{
+  width: 600px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: auto;
+}
+#customHookTable td,#customHookTable th{
+  border: 1px solid black;
+  padding: 5px;
+}
+#reducerHookForm{
+  background-color: #f8f4f4;
+  width: 500px;
+  margin: auto;
+}
+#reducerHookForm>div{
+  display: flex;
+  padding: 10px;
+  align-items: flex-start;
+}
+#reducerHookForm hr{
+  width: 95%;
+}
+#reducerHookForm .labelHead{
+  margin: 0;
+    text-align: left;
+    font-weight: 400;
+}
+#reducerHookForm .labelPara{
+  margin: 5px 0;
+  font-size: 11px;
+  text-align: left;
+  color: #4c4747;
+}
+#reducerHookForm .containers{
+  width: 45%;
+  margin-right: 10px;
+}
+#reducerHookForm .containersInput{
+  padding: 5px;
+  min-width: 250px;
+  margin: 10px 0;
+}
+#btnSubmit{
+  padding: 5px 10px;
+}
