@@ -19,7 +19,7 @@ const MemoHook = () => {
     if(btnColor==="white"){
       setBtnColor("orange")
     }
-    else if(btnColor=="orange"){
+    else if(btnColor==="orange"){
       setBtnColor("white")
     }
   }

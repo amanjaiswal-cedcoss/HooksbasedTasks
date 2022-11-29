@@ -5,9 +5,9 @@ const useFetch = (url,payload,method) => {
   const [data,setData]=useState("")
   
   useEffect( () => {
-    extractDataFromApi();
+    extractDataFromApi(url,payload,method);
   },[url,method,payload]);
-  const extractDataFromApi=()=>{
+  const extractDataFromApi=(url,payload,method)=>{
     let res;
     switch(method){
       case "GET":
@@ -28,7 +28,7 @@ const useFetch = (url,payload,method) => {
         alert("Please provide a right method")
     }
   }
-  return data
+  return {data,extractDataFromApi}
 };
 
 export default useFetch;

@@ -14,4 +14,4 @@ const CallbackChild2 = (props) => {
   );
 };
 
-export default CallbackChild2;
+export default memo(CallbackChild2);
