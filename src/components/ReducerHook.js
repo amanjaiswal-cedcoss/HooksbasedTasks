@@ -27,7 +27,6 @@ const ReducerHook = () => {
     for (let [key,value] of formData.entries()) {
       formDataArr.push({[key]:value})
     }
-    console.log(formDataArr)
     dispatch({type:"SUBMIT",payload:formDataArr})
     handleOpenModal()
   }
