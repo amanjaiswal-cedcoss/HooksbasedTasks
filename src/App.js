@@ -7,10 +7,10 @@ import ReducerHook from './components/ReducerHook';
 function App() {
   return (
     <div className="App">
-      {/* <MemoHook/> */}
+      <MemoHook/>
       <CallbackHook/>
-      {/* <CustomHook/> */}
-      {/* <ReducerHook/> */}
+      <CustomHook/>
+      <ReducerHook/>
     </div>
   );
 }

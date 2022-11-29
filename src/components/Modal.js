@@ -22,7 +22,7 @@ export default function BasicModal(props) {
     <div>
       <Modal open={open} onClose={handleClose} aria-labelledby="modal-modal-title" aria-describedby="modal-modal-description">
         <Box sx={style}>
-            {formData && formData.map(item=>{let itemArr=Object.entries(item);return(<Typography key={itemArr[0]}  id="modal-modal-description" sx={{ mt: 2 }}>{itemArr[0]}:{itemArr[1]}</Typography>)})}
+            {formData && formData.map(item=>{let itemArr=Object.entries(item);return(<Typography key={itemArr[0]}  id="modal-modal-description" sx={{ mt: 2 }}>{itemArr[0][0]} : {itemArr[0][1]}</Typography>)})}
         </Box>
       </Modal>
     </div>
